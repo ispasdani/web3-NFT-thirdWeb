@@ -1,0 +1,65 @@
+.main {
+  max-height: 50vh;
+  width: 100%;
+  display: flex;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 50vh;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.punkHighlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vh;
+}
+
+.ownerImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.owner {
+  display: flex;
+}
+
+.ownerDetails {
+  display: flex;
+}
+
+.ownerNameAndHandle {
+  color: white;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 800;
+}
